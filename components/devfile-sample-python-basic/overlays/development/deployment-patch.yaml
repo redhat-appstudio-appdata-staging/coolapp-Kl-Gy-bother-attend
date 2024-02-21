@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-python-basic
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/cqi-tenant/coolapp/devfile-sample-python-basic@sha256:9aa1b14c49c2c22972a1b808141a03eac28f7a56369cef8f69d2a6e3dade458a
+      - image: quay.io/redhat-user-workloads-stage/cqi-tenant/coolapp/devfile-sample-python-basic@sha256:97691d5b4850c2682ee641b44baf45231ff52a7871b05a422a945c504f40efbf
         name: my-python
         resources: {}
 status: {}
